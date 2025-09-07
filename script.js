@@ -6,17 +6,17 @@ class MenuScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("bg1", "assetf/image/bg1.png");
-    this.load.image("btn", "assetf/image/play.png");
-    this.load.image("teks", "assetf/image/SkyGuardian.png");
-    this.load.image("info", "assetf/image/info.png");
-    this.load.image("teksplay", "assetf/image/teksplay.png");
-    this.load.image("credit", "assetf/image/credit.png");
-    this.load.image("flare", "assetf/image/flare.png");
+    this.load.image("bg1", "bg1.png");
+    this.load.image("btn", "play.png");
+    this.load.image("teks", "SkyGuardian.png");
+    this.load.image("info", "info.png");
+    this.load.image("teksplay", "teksplay.png");
+    this.load.image("credit", "credit.png");
+    this.load.image("flare", "flare.png");
 
     this.load.audio(
       "bgMusic",
-      "assetf/audio/magical-technology-sci-fi-science-futuristic-game-music-300607.mp3"
+      "magical-technology-sci-fi-science-futuristic-game-music-300607.mp3"
     );
     this.load.audio("clickSFX", "assetf/audio/soundtombol.mp3");
   }
@@ -175,28 +175,28 @@ class PlayScene extends Phaser.Scene {
 
   preload() {
     // Asset Gambar
-    this.load.image("bg_far", "assetf/image/bg_far.png");
-    this.load.image("bg_near", "assetf/image/bg_near.png");
-    this.load.image("robot", "assetf/image/robot.png");
-    this.load.image("bullet", "assetf/image/peluru.png");
-    this.load.image("ufo", "assetf/image/ufo1.png");
-    this.load.image("ufo2", "assetf/image/ufo2.png");
-    this.load.image("ufo3", "assetf/image/ufo3.png");
-    this.load.image("ufo4", "assetf/image/ufo4.png");
-    this.load.image("isi", "assetf/image/credit.png");
-    this.load.image("informasi", "assetf/image/info.png");
-    this.load.image("flash", "assetf/image/flash.png");
-    this.load.image("playagin", "assetf/image/playagin.png");
-    this.load.image("gameover_bg", "assetf/image/gameover_bg.png");
-    this.load.image("explosion", "assetf/image/Explosion.png");
-    this.load.image("powerup", "assetf/image/PowerUp.png");
+    this.load.image("bg_far", "bg_far.png");
+    this.load.image("bg_near", "bg_near.png");
+    this.load.image("robot", "robot.png");
+    this.load.image("bullet", "peluru.png");
+    this.load.image("ufo", "ufo1.png");
+    this.load.image("ufo2", "ufo2.png");
+    this.load.image("ufo3", "ufo3.png");
+    this.load.image("ufo4", "ufo4.png");
+    this.load.image("isi", "credit.png");
+    this.load.image("informasi", "info.png");
+    this.load.image("flash", "flash.png");
+    this.load.image("playagin", "playagin.png");
+    this.load.image("gameover_bg", "gameover_bg.png");
+    this.load.image("explosion", "Explosion.png");
+    this.load.image("powerup", "PowerUp.png");
 
     // Audio
-    this.load.audio("clickSFX", "assetf/audio/soundtombol.mp3");
-    this.load.audio("shootSFX", "assetf/audio/single-gunshot-54-40780.mp3");
-    this.load.audio("ufoShootSFX", "assetf/audio/pistol-shot-233473.mp3");
-    this.load.audio("winnerSFX", "assetf/audio/level-win-6416.mp3");
-    this.load.audio("loseSFX", "assetf/audio/game-over-38511.mp3");
+    this.load.audio("clickSFX", "soundtombol.mp3");
+    this.load.audio("shootSFX", "single-gunshot-54-40780.mp3");
+    this.load.audio("ufoShootSFX", "pistol-shot-233473.mp3");
+    this.load.audio("winnerSFX", "level-win-6416.mp3");
+    this.load.audio("loseSFX", "game-over-38511.mp3");
   }
 
   create() {
@@ -800,3 +800,4 @@ const config = {
 window.onload = function () {
   game = new Phaser.Game(config);
 };
+
